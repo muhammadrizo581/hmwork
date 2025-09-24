@@ -17,22 +17,22 @@ export const Header = memo(() => {
 
           <ul className="flex items-center gap-6">
             <NavLink to={"/"} className="text-sm font-medium text-fh">
-              ALL PRODUCTS
+              All products
             </NavLink>
             <NavLink
               to={"/about"}
               className="text-sm font-medium text-fh "
             >
-              ABOUT SEEDRA
+              Abput Seedra
             </NavLink>
             <NavLink to={"/blog"} className="text-sm font-medium text-fh">
-              OUR BLOG
+              Our blog
             </NavLink>
             <NavLink
               to={"/contacts"}
               className="text-sm font-medium text-fh"
             >
-              CONTACTS
+              Contacts
             </NavLink>
           </ul>
 

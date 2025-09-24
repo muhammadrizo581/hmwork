@@ -10,12 +10,12 @@ export const Footer = memo(() => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <nav className="flex flex-wrap items-center justify-center gap-6 text-gray-600 font-medium">
             <Link to={"/"} className="text-green-700">
-              ALL PRODUCTS
+              All products
             </Link>
             <span className="text-py">|</span>
-            <Link to={"/about"}>ABOUT SEEDRA</Link>
+            <Link to={"/about"}>About sedra</Link>
             <span className="text-py">|</span>
-            <Link to={"/"}>OUR BLOG</Link>
+            <Link to={"/"}>Our blog</Link>
             <div>
               <img src={logo} alt="Seedra Logo" className="h-8 md:h-10" />
             </div>
