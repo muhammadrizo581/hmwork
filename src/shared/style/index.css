@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-py: #359740;
+  --color-sy: #1f2533;
+  --color-th: #FFCF55;
+  --color-fh: #71737b;
+  --color-fv: #b8b8b8;
+}
+
+.container {
+  max-width: 1110px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
